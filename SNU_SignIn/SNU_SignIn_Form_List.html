@@ -1,0 +1,216 @@
+<!-- Start of script !-->
+<!DOCTYPE html>
+<HTML>
+<BODY>
+<HEAD>
+<?php
+// No PHP available
+?>
+<script type="Text/css" lang="en">
+// Start of JavaScript console
+console.log("JavaScript console for the SNU SignIn Form Listing");
+// End of JavaScript console
+</script>
+<ruby type="text/ruby" lang="ja">
+
+</ruby>
+<xml>
+
+</xml>
+<style type="text/css" lang="en">
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<TITLE>SNU SignIn Form Listing - Collection of SNU sign-in forms</TITLE>
+</HEAD>
+<HR>
+<header>
+<H1 lang="en">SNU Sign-in Form list</H1>
+</header>
+<HR>
+<section>
+<H1 lang="en">Modern SNU Signin system (Version 2.0.0)</H1>
+<div>
+	<form action="/action_page.php">
+	<label for="usname">Username</label>
+	<input type="text" id="usname" name="username" placeholder="Your username"><br>
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password" placeholder="Your SNU account password"><br>
+	<label for="conpassword">Confirm password</label>
+	<input type="password" id="conpassword" name="conpassword" placeholder="Confirm your SNU account password"><br>
+	<label for="emailadd">Email address</label>
+	<input type="text" id="emailad" name="eMailAddress" placeholder="Your Email Address"><br>
+	<p><a href="about:blank">Don't have an email address you want to use with SNU? Click here to create a custom SNU Email address</a></p>
+		<!-- First name section !-->
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your first name..."><br>
+		<!-- Middle name section !-->
+		<label for="mname">Middle Name (optional)</label>
+		<input type="text" id="mname" name="middlename" placeholder="Your middle name..."><br>
+		<!-- Middle name section !-->
+		<label for="cname">Clan Name (optional)</label>
+		<input type="text" id="cname" name="middlename" placeholder="Your clan name..."><br>
+		<!-- Last name section !-->
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+		<!-- Country section !-->
+		<label for="country">Country (optional)</label>
+		<select id="country" name="country">
+			<option value="australia">Australia</option>
+			<option value="canada">Canada</option>
+			<option value="usa">United States of America (USA)</option>
+			<option value="japan">Japan</option>
+			<option value="russia">Russia</option>
+			<option value="UK">United Kingdom (UK)</option>
+			<option value="Mexico">Mexico</option>
+			<option value="Antarctica">Antarctica</option>
+			<option value="Afghanistan">Afghanistan</option>
+			<option value="Germany">Germany</option>
+			<option value="France">France</option>
+			<option value="Italy">Italy</option>
+			<option value="Austria">Austria</option>
+			<option value="China">China</option>
+			<option value="Vietnam">Vietnam</option>
+			<option value="SouthKorea">South Korea</option>
+			<option value="NorthKorea" disabled>North Korea</option>
+			<option value="Belgium">Belgium</option>
+			<option value="Indonesia">Indonesia</option>
+			<option value="India">India</option>
+			<option value="Turkey">Turkey</option>
+			<option value="Sweden">Sweden</option>
+			<option value="Malaysia">Malaysia</option>
+			<option value="Hungary">Hungary</option>
+			<option value="Egypt">Egypt</option>
+			<option value="Ireland">Ireland</option>
+			<option value="Poland">Poland</option>
+			<option value="Iceland">Iceland</option>
+			<option value="greenland">Greenland</option>
+			<option value="iran">Iran</option>
+			<option value="iraq">Iraq</option>
+			<option value="syria">Syria</option>
+			<option value="sudan">Sudan</option>
+			<option value="SaudiArabia">Saudi Arabia</option>
+			<option value="finland">Finland</option>
+			<option value="italy">Italy</option>
+			<option value="spain">Spain</option>
+			<option value="portugal">Portugal</option>
+			<option value="Brazil">Brazil</option>
+			<option value="kenya">Kenya</option>
+			<option value="Bangladash">Bangladash</option>
+			<option value="Armenia">Armenia</option>
+			<option value="Bosnia">Bosnia</option>
+			<option value="scotland">Scotland</option>
+			<option value="greece">Greece</option>
+			<option value="switzerland">Switzerland</option>
+			<!-- <option value="rome">Rome (is it a country?)</option> !-->
+			<option value="persia">Persia</option>
+		</select>
+		<!-- Continent section !-->
+		<label for="continent">Continent (optional)</label>
+		<select id="continent" name="continent">
+			<option value="Africa">Africa</option>
+			<option value="Asia">Asia</option>
+			<option value="Antarctica">Antarctica</option>
+			<option value="America">America (North)</option>
+			<option value="America2">America (South)</option>
+			<option value="Europe">Europe</option>
+			<option value="Australia">Australia</option>
+		</select>
+		<!-- Phone number section !-->
+		<label for="phoneNum">Phone number (optional)</label>
+		<input type="text" id="phoneNum" name="phoneNum" placeholder="Your phone number">
+		<!-- Gender section !-->
+		<label for="gender">Gender (optional)</label><br>
+		<input type="radio" value="Male">Male</input><br>
+		<input type="radio" value="FeMale">Female</input><br>
+		<input type="radio" value="Transgender">Transgender</input><br>
+		<input type="radio" value="Other">Other</input><br>
+		<input type="radio" value="NA">Prefer not to say</input><br>
+		<!-- Age section !-->
+		<label for="age">Age (optional)</label><br>
+		<input type="number" id="AgeNum" name="AgeNum" placeholder="Your age" min="0" max="999999999999999"><br>
+		<!-- DOB section !-->
+		<label for="DOB">Date of birth (optional)</label><br>
+		<label for="DOB_Month">Month</label><br>
+		<select id="month" name="monthNames">
+			<option value="1">January</option>
+			<option value="2">February</option>
+			<option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+		<label for="DOB_DayOfMonth">Day of Month</label><br>
+		<input type="number" name="DO Month" min="1" max="31"><br>
+		<label for="DOB_DayOfMonth">Year<!-- number!--></label><br>
+		<input type="number" name="DO Year" min="-999999999999" max="99999999999999"><br>
+		<!-- Submit results !-->
+		<input type="submit" value="Submit">
+		<!-- End of form !-->
+	</form>
+</div>
+</section>
+<HR>
+<H1 lang="en">Original</H1>
+<p lang="en">SNU CardStack example</p>
+<H1 id="Top">Login/signin to SNU CardStack<a href="#Top">¶</a></H1>
+<hr class="blank">
+<p lang="en">Username: <input type="username"></input><br></p>
+<p lang="en">Password: <input type="password"></input><br></p>
+<hr class="blank">
+<p lang="en">Don't have an account? <a href="SNUCardStack_Register.html">create one now!</a></p>
+</section>
+<HR>
+<section>
+<details><summary><H2 lang="en" id="SnapshotSection">View older versions of this page</H2></summary>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot1.html">Snapshot 1 (February 19th 2020)</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot2.html">Snapshot 2 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot3.html">Snapshot 3 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot4.html">Snapshot 4 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot5.html">Snapshot 5 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot6.html">Snapshot 6 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot7.html">Snapshot 7 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot8.html">Snapshot 8 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot9.html">Snapshot 9 ()</a></p>
+<p lang="en"><a href="SNU_SignIn_Form_List_Snapshot10.html">Snapshot 10 ()</a></p>
+</details>
+</section>
+<HR>
+</BODY>
+<!-- </BODY> -->
+</HTML>
+<!-- End of script !-->
